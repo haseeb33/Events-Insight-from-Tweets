@@ -1,0 +1,38 @@
+Total number of tweets = 3857302
+
+Total number of hashtags = 275836 (No date influence)
+
+Total number of hashtags in day hashtag pooling, 464934
+Number of hashtags have more than 1 tweet, 92665
+Number of hashtags have more than 5 tweets, 19403
+Number of hashtags have more than 10 tweets, 9150
+
+Training time for LDA:
+For 275836 docs(hashtag pooled all data) and 1000 topics = 4674.050728559494 Sec
+Testing time on Morethan10tweets_# (N = 9150): 980.1385009288788 Sec
+
+Training Time for both models for twitter data
+For 1000 docs (Log 3)  DTM				  LDA
+20 topics			42.86 Sec 			4.92 Sec
+50 topics 			79.68 Sec 			7.71 Sec
+100 topic 			129.76 Sec 			13.71 Sec
+For 3200 docs (Log 3.5)
+20 topics 			190.88 Sec 			10.98 Sec
+50 topics 			340.38 Sec 			17.82 Sec
+100 topics 			590.29 Sec 			30.97 Sec
+For 10,000 docs (Log 4)
+20 topics 			592.80 Sec 			15.56 Sec
+50 topics 			1116.42 Sec 		31.74 Sec
+100 topics 			1967.31 Sec 		51.05 Sec
+For 32,000 docs (Log 4.5)
+20 topics 			1844.69 Sec 		30.30 Sec
+50 topics 			3531.24 Sec 		60.10 Sec
+100 topics 			5987.03 Sec 		105.87 Sec
+For 100,000 docs (Log 5)
+20 topics 			5663.21 Sec 		64.55 Sec
+50 topics 			10801.09 Sec 		124.75 Sec
+100 topics 			18436.17 Sec 		220.42 Sec
+For 320,000 docs (Log 5.5)
+20 topics 			21480.49 Sec		151.74 Sec
+50 topics 			42781.83 Sec		291.90 Sec
+100 topics 			74270.23 Sec		536.41 Sec

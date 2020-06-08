@@ -6,4 +6,5 @@
 *.blg
 *.out
 *.bst
+api_key_file.json
 *.DS_Store
